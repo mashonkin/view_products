@@ -1,0 +1,9 @@
+<div id="select-view">
+    Вид:&nbsp;&nbsp;
+    <a href="#" class="list{if waRequest::cookie('view_products')=='list'} active{/if}">
+        <i class="icon_b view_list"></i>
+    </a>&nbsp;
+    <a href="#" class="grid{if waRequest::cookie('view_products')!='list'} active{/if}">
+        <i class="icon_b view_grid"></i>
+    </a>
+</div>
